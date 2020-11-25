@@ -1,5 +1,5 @@
 [server]
-hostname = "localhost"
+hostname = "207.244.232.25"
 node_ip = "127.0.0.1"
 #offset=0
 mode = "single" #single or ha
