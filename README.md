@@ -47,17 +47,17 @@ sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 ```
 
-# Clonar repositorio
-como root:
+# Descargar códigos fuentes
 
+**como root:
+
+```bash
 #crear carpeta de trabajo: 
-mkdir /opt/wso2
-
-
+cd /opt
+mkdir wso2
 
 #Clonar repositorio
 
-```bash
 git clone https://github.com/DanielClaveria/wso2_api_manager.git
 ```
 
