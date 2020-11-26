@@ -4,7 +4,7 @@
 
 Referencia: https://docs.docker.com/engine/install/ubuntu/
 
-**con usuario root
+** con usuario root
 ```bash
 apt-get update
 
