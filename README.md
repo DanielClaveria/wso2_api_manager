@@ -25,7 +25,11 @@ apt-get update
 
 #Instalar Docker
 sudo apt-get install docker-ce docker-ce-cli containerd.io
+
+#validar instalación
+docker --version
 ```
+
 # Instalación de docker-compose
 
 Referencia:
