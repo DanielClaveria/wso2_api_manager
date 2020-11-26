@@ -60,7 +60,7 @@ mkdir wso2apimanager.fraccion.cl
 
 git clone https://github.com/DanielClaveria/wso2_api_manager.git
 ```
-# Configurar en instalar API Manager + MySql
+# Configuración temporal de api-manager.
 
 ```bash
 #editar archivo de configuración de ApiManager
@@ -70,4 +70,23 @@ nano /opt/wso2/wso2_api_manager/conf/apim/repository/conf/deployment.toml
 * Está forma no es óptima, se recomienda manetener localhost y utilizar dominio gestionado por nginx y certificado SSL
 
 hostname = "[11.11.11.11]"
+
+# Instalar Api Manager + MySql Server
+
+```bash
+#en la carpeta creada por git clone, ejecutar script el docker-compose
+
+cd /opt/wso2/wso2_api_manager
+
+#ejecuta la "receta" docker definida por el docker-compose
+docker-compose up -d
+```
+* validar acceso a los siguientes servicios:
+
+## Carbón, utilizado para administrar api manager y los usuarios
+https://TU.IP.PUBLICA:9443/carbon
+https://TU.IP.PUBLICA:9443/publisher
+https://TU.IP.PUBLICA:9443/devportal
+
+
 
