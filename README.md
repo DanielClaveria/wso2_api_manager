@@ -81,12 +81,12 @@ cd /opt/wso2/wso2_api_manager
 #ejecuta la "receta" docker definida por el docker-compose
 docker-compose up -d
 ```
-* validar acceso a los siguientes servicios:
 
-## Carbón, utilizado para administrar api manager y los usuarios
-https://TU.IP.PUBLICA:9443/carbon
-https://TU.IP.PUBLICA:9443/publisher
-https://TU.IP.PUBLICA:9443/devportal
+# validar acceso a los servicios WSO2 Api Manager:
+
+* https://TU.IP.PUBLICA:9443/carbon
+* https://TU.IP.PUBLICA:9443/publisher
+* https://TU.IP.PUBLICA:9443/devportal
 
 
 
