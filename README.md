@@ -4,7 +4,7 @@
 
 Referencia: https://docs.docker.com/engine/install/ubuntu/
 
-** con usuario root
+* con usuario root
 ```bash
 apt-get update
 
@@ -49,7 +49,7 @@ docker-compose --version
 
 # Descargar códigos fuentes
 
-**como root:
+* como root:
 
 ```bash
 #crear carpeta de trabajo: 
@@ -66,8 +66,8 @@ git clone https://github.com/DanielClaveria/wso2_api_manager.git
 #editar archivo de configuración de ApiManager
 nano /opt/wso2/wso2_api_manager/conf/apim/repository/conf/deployment.toml
 ```
-**modificar hostname indicando dominio asignado al server.
-**solución óptima es utilizar nginx
+* modificar hostname indicando dominio asignado al server.
+* solución óptima es utilizar nginx
 
 hostname = "apimanager.fraccion.cl"
 
