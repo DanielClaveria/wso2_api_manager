@@ -66,8 +66,8 @@ git clone https://github.com/DanielClaveria/wso2_api_manager.git
 #editar archivo de configuración de ApiManager
 nano /opt/wso2/wso2_api_manager/conf/apim/repository/conf/deployment.toml
 ```
-* modificar hostname indicando dominio asignado al server.
-* solución óptima es utilizar nginx
+* modificar hostname indicando la IP del server.
+* Está forma no es óptima, se recomienda dominio gestionado por nginx y certificado SSL
 
-hostname = "[tudominio.ccom]"
+hostname = "[11.11.11.11]"
 
