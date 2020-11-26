@@ -1,5 +1,7 @@
 # wso2_api_manager
 
+Instalación de WSO2 Api Manager 3.2.0 en Docker con MySql como base de datos.
+
 # Instalación de Docker
 
 Referencia: https://docs.docker.com/engine/install/ubuntu/
