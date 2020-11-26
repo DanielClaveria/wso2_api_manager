@@ -69,5 +69,5 @@ nano /opt/wso2/wso2_api_manager/conf/apim/repository/conf/deployment.toml
 * modificar hostname indicando dominio asignado al server.
 * solución óptima es utilizar nginx
 
-hostname = "apimanager.fraccion.cl"
+hostname = "[tudominio.ccom]"
 
