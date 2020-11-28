@@ -91,4 +91,31 @@ docker-compose up -d
 * https://TU.IP.PUBLICA:9443/devportal
 
 
+# Comandos básicos Docker:
 
+```bash
+#reinicio de servicios
+docker start [nombre_docker o ID]
+docker stop [nombre_docker o ID]
+
+#ver docker en ejecución
+docker ps
+
+#ver docker ejecución y detenidos
+docker ps -a
+
+#ver redes
+docker networks ls
+
+#ver volumenes
+docker volume ls
+
+#logs
+docker logs [nombre_docker o ID]
+
+#ingresar a terminal de un docker
+docker exec -it [nombre del docker o ID] bash
+
+#inspecionar un docker
+docker inspect [nombre del docker o ID]
+```
